@@ -1,7 +1,10 @@
 ﻿#include <iostream>
 // #include <string> // string 헤더는 연습을 위해 사용 안함
+#include <Windows.h>
 
-// 클래스 내부에서 문자열 다루기
+#define MYTEXT(value) L##value
+#define MYTEST(value1, value2) value1##value2
+
 class Player
 {
 public: // 접근 한정자/제한자: 접근 가능한 범위 설정
@@ -53,6 +56,13 @@ int main()
 
 	// 객체 기반으로 문자열 사용
 	Player player("Miles Davison");
+
+	// wide-character
+	//const wchar_t* wideString = L"Hello, wide string";
+	const wchar_t* wideString = MYTEXT("Hello, wide string");
+	std::wcout << wideString << TEXT("\n");
+
+	auto test = MYTEST(10, 20);
 
 	std::cin.get();
 }
