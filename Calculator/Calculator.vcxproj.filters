@@ -18,15 +18,12 @@
     <ClCompile Include="Main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Entity\Entity.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Vector.h">
+    <ClCompile Include="Calculator\Calculator.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Entity\Entity.h">
+    <ClInclude Include="Calculator\Calculator.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
