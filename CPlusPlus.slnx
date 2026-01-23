@@ -7,6 +7,7 @@
   <Project Path="Class/Class.vcxproj" Id="7d22701b-92db-4b6c-ba1d-052c7a7d5706" />
   <Project Path="ClassAndArray/ClassAndArray.vcxproj" Id="b22d47a1-22e7-4ae8-8d9d-ac68479e9f32" />
   <Project Path="CompilerTest/CompilerTest.vcxproj" Id="c1a5bae9-b643-4695-af9c-2197414df91d" />
+  <Project Path="FriendKeyword/FriendKeyword.vcxproj" Id="ff31ded8-c564-43fa-834d-d3ebc46216c4" />
   <Project Path="InlineFunction/InlineFunction.vcxproj" Id="f84cbb6b-7ee6-464b-a359-8b8128a73e64" />
   <Project Path="Pointer/Pointer.vcxproj" Id="92056092-6bf5-4e81-b517-f74fa342bfa8" />
   <Project Path="Reference/Reference.vcxproj" Id="886597a2-187e-4fb8-bc90-9865c1eebfda" />
