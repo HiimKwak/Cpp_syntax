@@ -9,6 +9,7 @@ public:
 	//Player() = default; // 기본 생성자(no parameter), 컴파일러가 자동 생성
 	//~Player() = default;
 	Player();
+	Player(const char* inName);
 	~Player();
 
 	void Move(int inX, int inY);
@@ -17,4 +18,9 @@ private:
 	int x = 0;
 	int y = 0;
 	int speed = 0;
+	// 맨처음 Cpp 나왔을 땐 초기화 지원을 하지 않았음
+
+	// 이름 저장하는 문자열 변수
+	//char name[10] = {}; // 스택 변수, 최대글자수 제한(9) <- id같이 제한이 필요할 때
+	char* name = nullptr; // 힙 변수
 };
