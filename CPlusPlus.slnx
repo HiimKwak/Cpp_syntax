@@ -4,6 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/drills/">
+    <Project Path="Bank/Bank.vcxproj" Id="96b29ddf-351d-4ace-b01e-5852ef78b4f5" />
     <Project Path="Calculator/Calculator.vcxproj" Id="b9518e98-d951-41f1-aeac-dda54cca0524" />
     <Project Path="NameCard/NameCard.vcxproj" Id="55d4f565-2bcc-4760-9233-c6fc237bc523" />
     <Project Path="Printer/Printer.vcxproj" Id="1bd39e27-285f-4467-8492-eaf900eacf97" />
@@ -18,6 +19,7 @@
   <Project Path="Inheritance/Inheritance.vcxproj" Id="97f3a29f-a7f1-487f-be50-f4c08c8644bd" />
   <Project Path="InlineFunction/InlineFunction.vcxproj" Id="f84cbb6b-7ee6-464b-a359-8b8128a73e64" />
   <Project Path="Pointer/Pointer.vcxproj" Id="92056092-6bf5-4e81-b517-f74fa342bfa8" />
+  <Project Path="Polymorphism/Polymorphism.vcxproj" Id="f8a105d6-6b7d-4e29-a88c-ebaad187875a" />
   <Project Path="Reference/Reference.vcxproj" Id="886597a2-187e-4fb8-bc90-9865c1eebfda" />
   <Project Path="String/String.vcxproj" Id="e74f7f5b-226a-440b-9bc9-c635de9dd3b4" />
 </Solution>

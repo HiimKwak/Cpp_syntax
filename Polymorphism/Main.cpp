@@ -3,15 +3,27 @@
 // 매크로 안에서 #을 붙이면 무조건 문자열로 변환시킴
 // ## 두 개면 토큰을 합침
 #define NAME(x) #x
+#define PURE = 0
 
-class Entity
+// 추상클래스는 구현을 강제하고 싶을 때 사용
+// = 인터페이스, 인터페이스는 순수 가상 함수만 가져야 함
+
+class NameInterface
+{
+public: // 상속 관계가 아니더라도 외부에서 접근할 수 있어야 하므로 public을 사용해야 함
+	// 순수 가상 함수
+	virtual const char* GetName() const = 0;
+	//virtual const char* GetName() const PURE; // 흠..
+};
+
+class Entity: public NameInterface
 {
 public: 
 	//const char* GetName() const { return "Entity"; }
-	virtual const char* GetName() const { return NAME(Entity); }
+	virtual const char* GetName() const override { return NAME(Entity); }
 };
 
-class Player : public Entity
+class Player : public NameInterface
 {
 public:
 	Player(const char* name)
@@ -44,10 +56,12 @@ int main()
 	std::cout << entity->GetName() << std::endl;
 	entities[0] = entity;
 
-	//Player* player = new Player("Miles");
-	Entity* player = new Player("Miles");
+	Player* player = new Player("Miles");
+	//Entity* player = new Player("Miles"); // __vfptr 조사식 조회 가능
 	std::cout << player->GetName() << std::endl;
-	entities[1] = player;
+	//entities[1] = player;
+
+
 
 	delete entity;
 	delete player;
