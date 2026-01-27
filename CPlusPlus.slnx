@@ -18,6 +18,7 @@
   <Project Path="FriendKeyword/FriendKeyword.vcxproj" Id="ff31ded8-c564-43fa-834d-d3ebc46216c4" />
   <Project Path="Inheritance/Inheritance.vcxproj" Id="97f3a29f-a7f1-487f-be50-f4c08c8644bd" />
   <Project Path="InlineFunction/InlineFunction.vcxproj" Id="f84cbb6b-7ee6-464b-a359-8b8128a73e64" />
+  <Project Path="OperatorOverloading/OperatorOverloading.vcxproj" Id="c72ec6da-d263-4467-b37f-5e8b071f7c2a" />
   <Project Path="Pointer/Pointer.vcxproj" Id="92056092-6bf5-4e81-b517-f74fa342bfa8" />
   <Project Path="Polymorphism/Polymorphism.vcxproj" Id="f8a105d6-6b7d-4e29-a88c-ebaad187875a" />
   <Project Path="Reference/Reference.vcxproj" Id="886597a2-187e-4fb8-bc90-9865c1eebfda" />
