@@ -14,6 +14,7 @@
   <Project Path="Class/Class.vcxproj" Id="7d22701b-92db-4b6c-ba1d-052c7a7d5706" />
   <Project Path="ClassAndArray/ClassAndArray.vcxproj" Id="b22d47a1-22e7-4ae8-8d9d-ac68479e9f32" />
   <Project Path="CompilerTest/CompilerTest.vcxproj" Id="c1a5bae9-b643-4695-af9c-2197414df91d" />
+  <Project Path="FileIO/FileIO.vcxproj" Id="ce099a9f-e451-42e8-9d29-174565d2bb09" />
   <Project Path="ForwardDeclaration/ForwardDeclaration.vcxproj" Id="e297498d-ef3a-4e38-8737-195d7a0704a6" />
   <Project Path="FriendKeyword/FriendKeyword.vcxproj" Id="ff31ded8-c564-43fa-834d-d3ebc46216c4" />
   <Project Path="Inheritance/Inheritance.vcxproj" Id="97f3a29f-a7f1-487f-be50-f4c08c8644bd" />
