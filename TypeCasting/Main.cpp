@@ -37,6 +37,14 @@ int main()
 		std::cout << "b3 is not null\n";
 	}
 
+	const type_info& aInfo = typeid(a);
+	const type_info& bInfo = typeid(b1);
+	std::cout << "Type of A is " << aInfo.name() << std::endl;
+	if (aInfo == bInfo) // 주소값 비교
+	{
+		std::cout << "Same\n";
+	}
+
 	delete a;
 
 	std::cin.get();
