@@ -25,8 +25,8 @@ int main()
 		std::cout << data;
 	}*/
 
-	%	// 파일 크기 계산
-		fseek(file, 0, SEEK_END);
+	// 파일 크기 계산
+	fseek(file, 0, SEEK_END);
 	size_t fileSize = ftell(file);
 
 	std::cout << "FileSize: " << fileSize << std::endl;
