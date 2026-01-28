@@ -23,4 +23,5 @@
   <Project Path="Polymorphism/Polymorphism.vcxproj" Id="f8a105d6-6b7d-4e29-a88c-ebaad187875a" />
   <Project Path="Reference/Reference.vcxproj" Id="886597a2-187e-4fb8-bc90-9865c1eebfda" />
   <Project Path="String/String.vcxproj" Id="e74f7f5b-226a-440b-9bc9-c635de9dd3b4" />
+  <Project Path="TypeCasting/TypeCasting.vcxproj" Id="07f00214-72fb-4594-9899-a673fe336c23" />
 </Solution>
