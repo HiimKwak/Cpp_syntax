@@ -1,4 +1,5 @@
 #include <iostream>
+#include <Windows.h>
 
 class Account
 {
@@ -28,6 +29,21 @@ public:
 		std::cout << "잔액: " << balance << "원" << std::endl;
 	}
 
+	void Deposit(int amount)
+	{
+		balance += amount;
+		std::cout << amount << "원을 입금하였습니다.\n" << "잔액: " << balance << "원" << std::endl;
+	}
+	void Withdraw(int amount)
+	{
+		if (amount <= balance)
+		{
+			balance -= amount;
+			std::cout << amount << "원을 인출하였습니다.\n" << "잔액: " << balance << "원" << std::endl;
+		}
+		std::cout << "잔액보다 큰 금액은 인출할 수 없습니다. 잔액: " << balance << "원" << std::endl;
+	}
+
 protected:
 	int id;
 	char* name = nullptr;
@@ -55,7 +71,7 @@ public:
 			}
 		}
 	}
-	void CreateAccount()
+	Account* CreateAccount()
 	{
 		char name[100];
 		std::cout << "성함을 입력하세요 : ";
@@ -64,17 +80,22 @@ public:
 		std::cout << "계좌가 성공적으로 개설되었습니다!" << std::endl;
 		accountList[id]->RetrieveAccountInfo();
 		++id;
+		return accountList[id];
 	}
-	void Deposit()
+	void Deposit(Account& account, int amount)
 	{
+		account.Deposit(amount);
 	}
-	void Withdraw()
+	void Withdraw(Account& account, int amount)
 	{
-
+		account.Withdraw(amount);
 	}
 	void Inquire()
 	{
-
+		for (const Account* account : accountList)
+		{
+			account->RetrieveAccountInfo();
+		}
 	}
 private:
 	Account* accountList[100];
@@ -83,8 +104,24 @@ private:
 
 int main()
 {
-	Bank bank;
-	bank.CreateAccount();
+	bool isRunning = true;
+	Bank* bank = new Bank();
+
+	while (isRunning)
+	{
+
+		std::cout
+			<< "1. 계좌개설\n"
+			<< "2. 입금\n"
+			<< "3. 출금\n"
+			<< "4. 전체 고객 잔액 조회계좌개설\n"
+			<< "q. 종료"
+			<< "원하시는 메뉴의 문자를 입력해주세요: "
+			<< std::endl;
+
+		Account* newAccount = bank->CreateAccount();
+		bank->Deposit(*newAccount, 1);
+	}
 
 	std::cin.get();
 }
