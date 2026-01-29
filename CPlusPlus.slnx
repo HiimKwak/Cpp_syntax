@@ -17,6 +17,7 @@
   <Project Path="FileIO/FileIO.vcxproj" Id="ce099a9f-e451-42e8-9d29-174565d2bb09" />
   <Project Path="ForwardDeclaration/ForwardDeclaration.vcxproj" Id="e297498d-ef3a-4e38-8737-195d7a0704a6" />
   <Project Path="FriendKeyword/FriendKeyword.vcxproj" Id="ff31ded8-c564-43fa-834d-d3ebc46216c4" />
+  <Project Path="FunctionPointer/FunctionPointer.vcxproj" Id="587b5ba5-24c1-41f0-86db-d2d75c897209" />
   <Project Path="Inheritance/Inheritance.vcxproj" Id="97f3a29f-a7f1-487f-be50-f4c08c8644bd" />
   <Project Path="InlineFunction/InlineFunction.vcxproj" Id="f84cbb6b-7ee6-464b-a359-8b8128a73e64" />
   <Project Path="OperatorOverloading/OperatorOverloading.vcxproj" Id="c72ec6da-d263-4467-b37f-5e8b071f7c2a" />
