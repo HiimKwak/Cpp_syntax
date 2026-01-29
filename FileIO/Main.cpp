@@ -1,10 +1,15 @@
 #include <iostream>
+#include <vector>
 #include "Player.h"
 
 
 
 int main()
 {
+	std::vector<int> array;
+	array.push_back(10); // LValue참조를 기준, RValue참조도 지원
+	array.emplace_back(20);  // RValue참조를 기준, LValue참조도 지원 + move 지원
+
 	// 객체를 파일에 쓰기(직렬화)
 	//Player player(3, 200, 30.0f);
 	//player.Serialize("PlayerData.txt");
