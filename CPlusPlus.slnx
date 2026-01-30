@@ -27,4 +27,5 @@
   <Project Path="String/String.vcxproj" Id="e74f7f5b-226a-440b-9bc9-c635de9dd3b4" />
   <Project Path="Template/Template.vcxproj" Id="c1291e3a-3a79-4294-841d-163e1861c9de" />
   <Project Path="TypeCasting/TypeCasting.vcxproj" Id="07f00214-72fb-4594-9899-a673fe336c23" />
+  <Project Path="UniquePointer/UniquePointer.vcxproj" Id="55206ef6-8b9e-4c91-8d45-fba23df0e12d" />
 </Solution>
