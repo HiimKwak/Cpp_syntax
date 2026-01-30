@@ -73,14 +73,29 @@ int main()
 {
 	std::vector<int> array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-	Less less;
-	Greater greater;
+	/*Less less;
+	Greater greater;*/
 
+	auto greater = [](int a, int b)->bool { return a > b; };
+
+	int number1 = 10;
+	int number2 = 5;
+
+	bool result = greater(number1, number2);
 	std::sort( // insertion sort, quick sort, heap sort 조합인 introsort로 구현돼있음
 		array.begin(),
 		array.end(),
-		less
+		greater
 	);
+
+	int sum = 0;
+	std::for_each(
+		array.begin(),
+		array.end(),
+		[&sum](int item) {sum += item; }
+	);
+
+	std::cout << "Sum = " << sum << std::endl;
 
 	for (const auto item : array)
 	{
