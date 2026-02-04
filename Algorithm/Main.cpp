@@ -1,12 +1,14 @@
 #include <iostream>
 #include <vector>
 
-#include "Stack/Stack.h"
+#include "Queue/Queue2.h"
 
 int main()
 {
-	std::vector<int> input = { 1,1,3,3,0,1,1 };
+	int bridge_weight = 2;
+	int weight = 10;
+	std::vector<int> truck_weights = { 7,4,5,6 };
 
-	Stack stack;
-	stack.Stack1(input);
+	Queue2 queue;
+	queue.solution(bridge_weight, weight, truck_weights);
 }

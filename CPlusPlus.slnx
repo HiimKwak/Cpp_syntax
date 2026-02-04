@@ -4,6 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/drills/">
+    <Project Path="Algorithm/Algorithm.vcxproj" Id="158fc5c9-a9e5-4a86-9bb1-67ff2b3b4bfe" />
     <Project Path="Bank/Bank.vcxproj" Id="96b29ddf-351d-4ace-b01e-5852ef78b4f5" />
     <Project Path="Calculator/Calculator.vcxproj" Id="b9518e98-d951-41f1-aeac-dda54cca0524" />
     <Project Path="NameCard/NameCard.vcxproj" Id="55d4f565-2bcc-4760-9233-c6fc237bc523" />
