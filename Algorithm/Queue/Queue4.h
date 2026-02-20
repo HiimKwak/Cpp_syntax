@@ -3,6 +3,6 @@
 class Queue4
 {
 public:
-	int CardThrow(int number);
+	int CardThrow();
 };
 
