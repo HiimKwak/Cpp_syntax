@@ -9,6 +9,7 @@
     <Project Path="Calculator/Calculator.vcxproj" Id="b9518e98-d951-41f1-aeac-dda54cca0524" />
     <Project Path="NameCard/NameCard.vcxproj" Id="55d4f565-2bcc-4760-9233-c6fc237bc523" />
     <Project Path="Printer/Printer.vcxproj" Id="1bd39e27-285f-4467-8492-eaf900eacf97" />
+    <Project Path="Queue1/Queue1.vcxproj" Id="4b8ff8e2-4990-4159-b125-52fb45fdfc98" />
     <Project Path="Rectangle/Rectangle.vcxproj" Id="24c35fa4-22d4-4f1e-a0a7-64f1e4ef65c2" />
   </Folder>
   <Project Path="Array/Array.vcxproj" Id="59729e53-e843-4203-b3c9-9915735cb072" />

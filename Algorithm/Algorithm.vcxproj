@@ -144,14 +144,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Queue\Queue1.cpp" />
+    <ClCompile Include="Queue\Queue4.cpp" />
     <ClCompile Include="Queue\Queue2.cpp" />
     <ClCompile Include="Queue\Queue3.cpp" />
     <ClCompile Include="Stack\Stack1.cpp" />
     <ClCompile Include="Stack\Stack2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Queue\Queue1.h" />
+    <ClInclude Include="Queue\Queue4.h" />
     <ClInclude Include="Queue\Queue2.h" />
     <ClInclude Include="Queue\Queue3.h" />
     <ClInclude Include="Stack\Stack1.h" />
