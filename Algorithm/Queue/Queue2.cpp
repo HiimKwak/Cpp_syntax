@@ -1,14 +1,12 @@
 #include "Queue2.h"
 
 #include <vector>
-#include <iostream>
 
 int Queue2::solution(int bridge_length, int weight, std::vector<int> truck_weights)
 {
 	// 경과시간 = for loop 횟수
 	int count = 0;
 	std::vector<int> bridge;
-	//std::cout << truck_weights.size();
 
 	while (truck_weights.size() != 0)
 	{
